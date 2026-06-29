@@ -1,0 +1,16 @@
+# Core
+torch>=2.6.0
+transformers>=4.40.0
+tokenizers>=0.20.0
+huggingface-hub>=0.23.0
+
+# Data / utils
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.5.0
+iterative-stratification>=0.1.7
+tqdm>=4.66
+
+# Training / inference
+accelerate>=0.30          # AMP support
+safetensors>=0.4

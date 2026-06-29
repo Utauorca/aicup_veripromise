@@ -1,0 +1,70 @@
+# =====================================================
+# AICup VeriPromiseESG — .gitignore
+# =====================================================
+
+# ──────────────── 模型權重 / Checkpoints ────────────────
+# 單檔 1.9 GB，遠超 GitHub 100 MB 上限
+*.zip
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+checkpoints_*/
+checkpoints_inference_*/
+crt_output/
+_crt_input_*/
+
+# ──────────────── Kaggle / 暫存 staging 目錄 ────────────────
+_kaggle_staging/
+
+# ──────────────── 報告 markdown 源檔（已產出 docx，避免重複）────────────────
+REPORT.md
+
+# ──────────────── 競賽資料 ────────────────
+# 主辦提供，不公開
+vpesg4k_*.json
+vpesg4k_pseudo_test.json
+vpesg4k_train_with_pseudo.json
+
+# ──────────────── 提交產出 ────────────────
+submission*.csv
+
+# ──────────────── 報告 PDF/Word ────────────────
+# 報告自身不放在 repo 裡（避免雙重提交）
+*.docx
+*.pdf
+
+# ──────────────── Jupyter ────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ──────────────── Python ────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+
+# ──────────────── 虛擬環境 ────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ──────────────── IDE ────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ──────────────── 系統 ────────────────
+.DS_Store
+Thumbs.db
+
+# ──────────────── 暫存腳本 ────────────────
+_tmp_*.py
+tmp_*.py
