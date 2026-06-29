@@ -154,7 +154,6 @@ aicup_veripromise/
 
 - **隊伍**：TEAM_9910
 - **隊員**：謝柏陞（隊長）
-- **指導教授**：（如有請補）
 - **Public Leaderboard**：0.6243（3-best ensemble）
 - **Private Leaderboard**：**0.6359 / Rank 24**（比賽最終評分）
 
