@@ -1,6 +1,8 @@
 # AI CUP 2026 春季賽 — ESG 永續承諾驗證競賽
 
-**Public Leaderboard**: **0.6243**（Rank 待確認）
+**Public Leaderboard**: **0.6243** ／ **Private Leaderboard**: **0.6359 (Rank 24)**
+
+> 隊伍：TEAM_9910 ｜ 隊員：謝柏陞（隊長）
 
 本 repo 為 AICup 2026 春季賽「ESG 永續承諾驗證競賽」之完整實作。任務為對中文 ESG 永續報告書句子做 4 個 task 的多任務分類：`promise_status`、`verification_timeline`、`evidence_status`、`evidence_quality`。
 
@@ -60,10 +62,10 @@ aicup_veripromise/
 
 由於單一 ckpt 約 400 MB、4 seed × 5 fold = 共 20 個 ckpt 約 8 GB，未隨 repo 上傳。
 
-請從以下連結下載：
+請從以下 Google Drive 連結下載（資料夾內含 3 個 ckpt zip）：
 
-- **[待補：Google Drive / HuggingFace 連結]**
-- 解壓後放到 `aicup_veripromise/leadboard/` 資料夾，命名為：
+- **Google Drive**：https://drive.google.com/drive/folders/1vQY_Gl3vN0GSj9fNgMv0CkHZrxc0IVts?usp=sharing
+- 把 3 個 zip 直接放到 `aicup_veripromise/leadboard/` 資料夾，檔名應為：
   - `checkpoints_ema_AMASK_1106910.zip`
   - `checkpoints_ema_AMASK_910.zip`
   - `checkpoints_ema_AMASK_9910.zip`
@@ -150,10 +152,11 @@ aicup_veripromise/
 
 ## 隊伍資訊
 
-- **隊伍**：TEAM_[待補]
-- **隊員**：[待補]
-- **指導教授**：[待補]
-- **Private Leaderboard**：0.[待補] / Rank [待補]
+- **隊伍**：TEAM_9910
+- **隊員**：謝柏陞（隊長）
+- **指導教授**：（如有請補）
+- **Public Leaderboard**：0.6243（3-best ensemble）
+- **Private Leaderboard**：**0.6359 / Rank 24**（比賽最終評分）
 
 ## AI 輔助工具聲明
 
