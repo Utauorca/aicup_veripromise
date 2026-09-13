@@ -1,6 +1,6 @@
 # AI CUP 2026 春季賽 — ESG 永續承諾驗證競賽
 
-**Public Leaderboard**: **0.6243** ／ **Private Leaderboard**: **0.6359 (Rank 24)**
+**Public Leaderboard**: **0.6243** ／ **Private Leaderboard**: **0.6359 (Rank 24) 獲獎前標**
 
 > 隊伍：TEAM_9910 ｜ 隊員：謝柏陞（隊長）
 
